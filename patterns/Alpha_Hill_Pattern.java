@@ -8,10 +8,6 @@ public class Alpha_Hill_Pattern {
         System.out.print("Enter the number of rows:");
 
         int n = input.nextInt();
-
-        
-
-
         for(int i=0;i<n;i++){
             for(int j=0;j<=n-i-1;j++){
                 System.out.print(" ");
@@ -27,40 +23,9 @@ public class Alpha_Hill_Pattern {
                 else ch--;
             }
 
-
-
-
-
-
-
-
-
-
-            for(int j=0;j<=n-i-1;j++){
-                System.out.print("");
-            }
+            
             System.out.println();
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
         input.close();
