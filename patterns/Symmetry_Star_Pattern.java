@@ -1,5 +1,6 @@
 package patterns;
 import java.util.Scanner;
+ 
 
 public class Symmetry_Star_Pattern {
     public static void symmetry(int n) {
@@ -18,6 +19,7 @@ public class Symmetry_Star_Pattern {
         }
     }
 
+    
     public static void main(String[] args) {
        Scanner input= new Scanner(System.in);
         System.out.print("Enter the size of the symmetry star pattern (n): ");
@@ -25,4 +27,4 @@ public class Symmetry_Star_Pattern {
         symmetry(n);
         input.close();
     }
-}
+} 
